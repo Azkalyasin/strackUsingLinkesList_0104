@@ -92,6 +92,14 @@ int main()
                 cout << "stack is empty. cannot pop." << endl;
             }
             break;
+        case 3:
+            if (!stack.isEmpty()) {
+                stack.peek();
+            }
+            else {
+                cout << "stack is empty. no top value." << endl;
+            }
+            break;
 
 
         }
