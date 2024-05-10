@@ -108,6 +108,7 @@ int main()
             break;
 
         }
+        cout << endl;
     }
 }
 
